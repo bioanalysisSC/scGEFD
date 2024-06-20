@@ -1,0 +1,17 @@
+base_path: ./dataset/Quake_Smart-seq2_Diaphragm/data.h5
+save_path: ./result/Quake_Smart-seq2_Diaphragm/log_Quake_Smart-seq2_Diaphragm.txt
+highly_genes: 2000
+seed: 1
+graph_type: KNN
+graph_distance_cutoff_num_stds: 0.0
+pretrain_epochs: 1000
+epochs: 100
+learning_rate: 0.00001
+lambd: 0.0003
+dim: 256
+hidden_dim: 64
+adj_dim: 32
+eval_metric:
+  - nmi
+  - ari
+cluster_type: kmeans

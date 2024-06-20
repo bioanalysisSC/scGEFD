@@ -1,0 +1,17 @@
+base_path: ./dataset/Muraro/data.h5
+save_path: ./result/Muraro/log_Muraro.txt
+highly_genes: 2000
+seed: 3407
+graph_type: KNN
+graph_distance_cutoff_num_stds: 0.0
+pretrain_epochs: 1000
+epochs: 150
+learning_rate: 0.00001
+lambd: 0.00002
+dim: 256
+hidden_dim: 64
+adj_dim: 32
+eval_metric:
+  - nmi
+  - ari
+cluster_type: kmeans
