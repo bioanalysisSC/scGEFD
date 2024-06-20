@@ -1,8 +1,7 @@
 #### Install requirements
 
 
-In order to perform clustering calculations more quickly, we employ clustering using pure PyTorch, cited by
-and the code can be found at https://github.com/Hzzone/torch_clustering.
+In order to perform clustering calculations more quickly, we employ clustering using pure PyTorch, cited by "Learning Representation for Clustering via Prototype Scattering and Positive Sampling", and the code can be found at https://github.com/Hzzone/torch_clustering.
 
 We need first clone it:
 
