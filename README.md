@@ -9,7 +9,7 @@ We need first clone it:
 git clone --depth 1 https://github.com/Hzzone/torch_clustering tmp && mv tmp/torch_clustering . && rm -rf tmp
 ```
 
-and then install other requirements:
+and then install other requirements, noting that some packages should be downloaded manually:
 
 ```shell
 pip install -r requirements.txt
