@@ -5,7 +5,7 @@ seed: 3407
 graph_type: KNN
 graph_distance_cutoff_num_stds: 0.0
 pretrain_epochs: 1000
-epochs: 150
+epochs: 100
 learning_rate: 0.00001
 lambd: 0.00002
 dim: 256
