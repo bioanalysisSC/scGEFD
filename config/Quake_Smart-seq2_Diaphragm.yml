@@ -5,9 +5,9 @@ seed: 1
 graph_type: KNN
 graph_distance_cutoff_num_stds: 0.0
 pretrain_epochs: 1000
-epochs: 100
+epochs: 80
 learning_rate: 0.00001
-lambd: 0.0003
+lambd: 0.0001
 dim: 256
 hidden_dim: 64
 adj_dim: 32
